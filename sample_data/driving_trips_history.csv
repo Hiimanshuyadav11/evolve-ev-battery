@@ -1,0 +1,11 @@
+trip_date,distance_km,energy_consumed_kwh,start_soc_percent,end_soc_percent,data_source,notes
+2026-10-01,24.5,4.41,80.0,72.6,simulation,City commute (moderate traffic)
+2026-10-04,52.0,9.62,90.0,74.0,simulation,Suburban highway commute
+2026-10-08,14.2,2.70,74.0,69.5,simulation,Short market run
+2026-10-12,85.0,16.58,100.0,72.4,simulation,Intercity highway journey
+2026-10-17,36.8,6.81,72.0,60.7,simulation,Mixed ring road trip
+2026-10-22,64.0,12.16,85.0,64.7,simulation,Expressway commute
+2026-10-27,18.5,3.52,65.0,59.1,simulation,Urban evening drive
+2026-11-02,42.0,7.85,78.0,64.9,simulation,Cool weather morning trip
+2026-11-07,95.0,18.53,95.0,64.1,simulation,Weekend highway excursion
+2026-11-12,30.0,5.55,64.0,54.8,simulation,Normal city loop

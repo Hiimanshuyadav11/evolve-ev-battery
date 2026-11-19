@@ -1,0 +1,6 @@
+measurement_date,usable_capacity_kwh,measurement_notes
+2024-11-15,60.0,Factory delivery baseline measurement (SOH: 100%)
+2025-05-20,58.8,6-month checkup (SOH: 98.0%)
+2025-11-18,57.6,1-year annual service (SOH: 96.0%)
+2026-05-15,56.1,18-month inspection (SOH: 93.5%)
+2026-11-10,54.9,2-year checkup (SOH: 91.5%)
