@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EVolve — Intelligent EV Battery Analytics & Predictive System</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-container">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-title">
+          <div class="brand-icon">⚡</div>
+          <span>EVolve</span>
+        </div>
+        <div class="brand-subtitle">Computational EV Battery Analytics</div>
+      </div>
+
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a class="nav-link active" data-page="overview">
+            <span class="nav-icon">📊</span>
+            <span>Overview</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-page="charging">
+            <span class="nav-icon">⚡</span>
+            <span>Charging Analysis</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-page="range">
+            <span class="nav-icon">🛣️</span>
+            <span>Range Prediction</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-page="trips">
+            <span class="nav-icon">🧭</span>
+            <span>Trip Simulator</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-page="health">
+            <span class="nav-icon">🔋</span>
+            <span>Battery Health (SOH)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-page="methods">
+            <span class="nav-icon">🔬</span>
+            <span>Methods Lab</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-page="data">
+            <span class="nav-icon">💾</span>
+            <span>Data & History</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-page="about">
+            <span class="nav-icon">ℹ️</span>
+            <span>About Project</span>
+          </a>
+        </li>
+      </ul>
+
+      <div class="sidebar-footer">
+        <div><strong>B.Tech Project</strong></div>
+        <div>Computational Methods Lab</div>
+        <div style="margin-top:4px; font-size:0.68rem; color:#475569;">Ver 1.0.0 (Local SQLite)</div>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <div class="main-wrapper">
+      <!-- Sticky Top Header -->
+      <header class="top-header">
+        <div class="header-left">
+          <div class="page-heading">EVolve Analytics Console</div>
+        </div>
+
+        <div class="header-right">
+          <div class="badge badge-profile">
+            <span>🚗 Profile:</span>
+            <strong id="header-profile-name">Loading...</strong>
+          </div>
+          <div class="badge badge-demo">
+            <div class="pulse-dot"></div>
+            <span id="header-data-source">Synthetic Demo Data</span>
+          </div>
+        </div>
+      </header>
+
+      <!-- Toast Notification Container -->
+      <div id="notification-container" style="position:fixed; top:70px; right:28px; z-index:9999; max-width:420px;"></div>
+
+      <!-- Main Dynamic Content -->
+      <main class="content-area" id="main-content">
+        <!-- Injected via app.js -->
+        <div style="text-align:center; padding: 60px; color: #64748b;">
+          <h3>Initializing EVolve Engineering Engine...</h3>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
